@@ -18,14 +18,12 @@
 <!--TODO (7) Remove the line that declares the id, we don't need it-->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <!--TODO (8) Wrap the TextView in a ScrollView-->
     <!--TODO (9) Set the ScrollView width to match_parent and the height to wrap_content-->
 
-    <!--TODO (6) Remove the default text from the TextView-->
     <TextView
         android:id="@+id/tv_weather_data"
         android:layout_width="wrap_content"
